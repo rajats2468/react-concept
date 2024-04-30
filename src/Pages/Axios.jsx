@@ -12,7 +12,7 @@ export default function Axios() {
     const data = useLoaderData();
     useEffect(()=>{
         setUserData(data)
-    }) 
+    },[data]) 
     console.log(data)
 
     return (
