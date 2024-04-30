@@ -20,7 +20,7 @@ export default function Axios() {
         <h1>User Details</h1>
         <ul style={{textAlign:"justify"}}>
             {userData.map((data)=>(
-                <li key={data.id}>{data.firstName}</li>
+                <li key={data.id}>{data.name}</li>
             ))}
         </ul>
 
@@ -30,8 +30,8 @@ export default function Axios() {
 
 export function loader(){
     
-    const result = axios.get("https://dummyjson.com/users").then((res) => {
-        return res.data.users
+    const result = axios.get("https://dummyjson.com/recipes").then((res) => {
+        return res.data.recipes
     })
     return result;
 }
