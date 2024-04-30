@@ -7,7 +7,7 @@ export default function Axios() {
     // useEffect(() => {
     //     axios.get("https://dummyjson.com/users").then((res) => {
     //         setUserData(res.data.users)
-    //     })
+    //     }) 
     // })
     const data = useLoaderData();
     useEffect(()=>{
