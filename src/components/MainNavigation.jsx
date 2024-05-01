@@ -26,6 +26,9 @@ export default function MainNavigation() {
             <nav>
                 <Link to={"/axios"}>Axios</Link>
             </nav>
+            <nav>
+                <Link to={"/form"}>Form</Link>
+            </nav>
         </div>
     )
 }

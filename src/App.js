@@ -9,6 +9,7 @@ import ContextExample from './Pages/ContextExample';
 import ReduxExample from './Pages/ReduxExample';
 import RefExample from './Pages/RefExample';
 import Memo from './Pages/Memo';
+import Form from './Pages/Form';
 const router = createBrowserRouter([
   {
     path: "/", element: <Root />, children: [
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       {path:"/redux",element:<ReduxExample/>},
       {path:"/ref",element:<RefExample/>},
       {path:"/memo",element:<Memo/>},
+      {path:"/form",element:<Form/>},
 
     ]
   },
